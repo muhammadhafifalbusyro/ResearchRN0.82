@@ -16,7 +16,9 @@
     "react-native-safe-area-context": "^5.5.2",
     "react-native-smooth-pincode-input": "^1.0.9",
     "react-native-snap-carousel": "^3.9.1",
-    "react-native-sortable-list": "^0.0.25"
+    "react-native-sortable-list": "^0.0.25",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-webview": "^13.12.3"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

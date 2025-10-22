@@ -1,13 +1,77 @@
+import React from "react";
+import {View, Text} from 'react-native'
+import Icon from 'react-native-vector-icons/Feather'
+import {WebView} from 'react-native-webview'
+
+const App = () => {
+  return (
+    <View style={{flex:1 }}>
+      <WebView source={{ uri: 'https://reactnative.dev/' }} style={{ flex: 1 }} />
+    </View>
+  )
+}
+
+export default App
+
+// ======================================================================================================================
+
+//   "react-native-webview": "^13.12.3" => RUN 
+
+// import React from "react";
+// import {View, Text} from 'react-native'
+// import Icon from 'react-native-vector-icons/Feather'
+// import {WebView} from 'react-native-webview'
+
+// const App = () => {
+//   return (
+//     <View style={{flex:1 }}>
+//       <WebView source={{ uri: 'https://reactnative.dev/' }} style={{ flex: 1 }} />
+//     </View>
+//   )
+// }
+
+// export default App
+
+
+
+// ======================================================================================================================
+
+//"react-native-vector-icons": "^9.2.0" => RUN with notes
+
+//react-native-vector-icons package has moved to a new model of per-icon-family packages. See the https://github.com/oblador/react-native-vector-icons/blob/master/MIGRATION.md on how to migrate
+
+
+// import React from "react";
+// import {View, Text} from 'react-native'
+// import Icon from 'react-native-vector-icons/Feather'
+
+// const App = () => {
+//   return (
+//     <View style={{flex:1 }}>
+//       <Text style={{color:'red'}}>Hallo</Text>
+//       <Icon name="home"/>
+//     </View>
+//   )
+// }
+
+// export default App
+
+
+// =======================================================================================================================
+ // "react-native-splash-screen": "^3.3.0" => ERROR
+
+
+//  Error npm run android after npm install pacakge: msg => duplicate class ....
 
 // ==========================================================================================================================
-// "react-native-sortable-list": "^0.0.25"
+// "react-native-sortable-list": "^0.0.25" => ERROR
 
-// /**
-//  * Sample React Native App
-//  * https://github.com/facebook/react-native
-//  *
-//  * @format
-//  */
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ */
 
 // import React, {useCallback, useEffect, useMemo, useRef} from 'react';
 // import {
@@ -214,7 +278,7 @@
 
 // ===============================================================================================
 
-// "react-native-smooth-pincode-input: 1.0.9"
+// "react-native-smooth-pincode-input: 1.0.9" => ERROR
 
 // import React from 'react'
 // import {View, Text} from 'react-native'
@@ -236,7 +300,7 @@
 
 // =====================================================================================================
 
-//"react-native-snap-carousel": "^3.9.1",
+//"react-native-snap-carousel": "^3.9.1" => ERROR
 
 // import React, { useRef, useState } from 'react';
 // import { View, Text, Dimensions, StyleSheet, Image } from 'react-native';
